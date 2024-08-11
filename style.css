@@ -1,0 +1,90 @@
+/* Body and Container Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #e0f7fa; /* Soft teal background representing sky */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #2e4a36; /* Deep green text */
+}
+
+.container {
+    background: #f0f4c3; /* Pale yellow-green background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: #2e4a36; /* Deep green color */
+    font-weight: bold;
+}
+
+/* Input Group and Input Styles */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #5d6d5a; /* Soft brownish-green */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b8c2a9; /* Light green border */
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #8bc34a; /* Fresh green border on focus */
+    box-shadow: 0 0 5px rgba(139, 195, 74, 0.5);
+}
+
+/* Button Styles */
+button {
+    background: #8bc34a; /* Fresh green background */
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #7cb342; /* Darker green on hover */
+}
+
+/* Error Message and Error Styles */
+.error {
+    border-color: #e74c3c;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 0.875em;
+    margin-top: 5px;
+}
+
+/* Additional Styling for Form */
+form {
+    margin: 0;
+    padding: 0;
+}
